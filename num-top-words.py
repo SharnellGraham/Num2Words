@@ -26,3 +26,6 @@ zero_format_lable = Label(root, text="4. Floating points/decimals/fractions  ",
 num_entry_lable = Label(root, text="Enter a number :",
                fg="Blue", font=("Arial", 15, 'bold')).place(x=50, y=200)
 num_entry = Entry(root,textvariable=num,width=30).place(x=220, y=200)
+
+btn = Button(master=root, text="calculate",fg="green", font=("Arial", 10, 'bold')
+             ,command=num_to_words).place(x=280,y=230)
