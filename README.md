@@ -1,6 +1,8 @@
 # Number to Words Converter
 
-A simple Python desktop application to convert numbers into words using the `num2words` library and Tkinter.
+![Demo](demo.png)
+
+A Python desktop application that converts numbers into words using the `num2words` library and Tkinter.
 
 ## Table of Contents
 
@@ -15,7 +17,7 @@ A simple Python desktop application to convert numbers into words using the `num
 
 ## Description
 
-This application provides a graphical user interface (GUI) for converting numerical values into their equivalent word representations. It is built using Python and the Tkinter library for the GUI. The conversion is done using the `num2words` library, which supports various formats, including positive numbers, negative numbers, zeros, and floating-point numbers.
+This application provides a user-friendly graphical interface for converting numerical values into their word representations. It is built with Python and Tkinter for the GUI, and the conversion is done using the `num2words` library, which supports various formats, including positive numbers, negative numbers, zeros, and floating-point numbers.
 
 ## Features
 
@@ -39,22 +41,21 @@ Before you begin, ensure you have met the following requirements:
 
    ```shell
    git clone https://github.com/SharnellGraham/Num2words.git
+Change to the project directory:
 
-   Change to the project directory:
-
-```shell
-
-cd number-to-words-converter
+shell
+Copy code
+cd Num2words
 Install the required dependencies (if not already installed):
 
-```shell
-
+shell
+Copy code
 pip install num2words
 Usage
 Run the application:
 
-```shell
-
+shell
+Copy code
 python num-to-words.py
 Enter a numerical value in the input field.
 
@@ -69,13 +70,13 @@ Fork the repository.
 
 Create a new branch for your feature or bug fix:
 
-```shell
-
+shell
+Copy code
 git checkout -b feature/my-feature
 Commit your changes and push them to your fork:
 
-```shell
-
+shell
+Copy code
 git commit -am 'Add new feature'
 git push origin feature/my-feature
 Create a pull request on the main repository.
@@ -83,11 +84,3 @@ Create a pull request on the main repository.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-sql
-
-
-Please replace `yourusername` with your actual GitHub username and update any other project-specific details as needed. This README provides an overview of the project, installation instructions, usage guidelines, contribution guidelines, and license information.
-
-
-
-``````
