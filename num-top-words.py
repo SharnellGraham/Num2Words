@@ -29,3 +29,6 @@ num_entry = Entry(root,textvariable=num,width=30).place(x=220, y=200)
 
 btn = Button(master=root, text="calculate",fg="green", font=("Arial", 10, 'bold')
              ,command=num_to_words).place(x=280,y=230)
+
+display = Label(root, text="",fg="black", font=("Arial", 10, 'bold'))
+display.place(x=10, y=300)
