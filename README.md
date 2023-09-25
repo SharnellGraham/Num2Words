@@ -43,18 +43,18 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/SharnellGraham/Num2words.git
 Change to the project directory:
 
-shell
+```shell
 Copy code
 cd Num2words
 Install the required dependencies (if not already installed):
 
-shell
+ ```shell
 Copy code
 pip install num2words
 Usage
 Run the application:
 
-shell
+```shell
 Copy code
 python num-to-words.py
 Enter a numerical value in the input field.
@@ -70,12 +70,12 @@ Fork the repository.
 
 Create a new branch for your feature or bug fix:
 
-shell
+```shell
 Copy code
 git checkout -b feature/my-feature
 Commit your changes and push them to your fork:
 
-shell
+```shell
 Copy code
 git commit -am 'Add new feature'
 git push origin feature/my-feature
