@@ -1,2 +1,93 @@
-# Num2Words
-This Python project can make you spell out the numbers you may define. This Python code will help you support more than a million inputs along with non-positive integers like zero, negative integers, or floating numbers.
+# Number to Words Converter
+
+A simple Python desktop application to convert numbers into words using the `num2words` library and Tkinter.
+
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Description
+
+This application provides a graphical user interface (GUI) for converting numerical values into their equivalent word representations. It is built using Python and the Tkinter library for the GUI. The conversion is done using the `num2words` library, which supports various formats, including positive numbers, negative numbers, zeros, and floating-point numbers.
+
+## Features
+
+- Converts numerical values into words.
+- Supports various formats, including positive numbers, negative numbers, zeros, and floating-point numbers.
+- User-friendly graphical interface.
+- Cross-platform compatibility (Windows, macOS, Linux).
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Python (3.x recommended)
+- `num2words` library
+
+### Installation
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/SharnellGraham/Num2words.git
+
+   Change to the project directory:
+
+```shell
+
+cd number-to-words-converter
+Install the required dependencies (if not already installed):
+
+```shell
+
+pip install num2words
+Usage
+Run the application:
+
+```shell
+
+python num-to-words.py
+Enter a numerical value in the input field.
+
+Click the "Calculate" button to convert the number to words.
+
+The result will be displayed below the input field.
+
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+Fork the repository.
+
+Create a new branch for your feature or bug fix:
+
+```shell
+
+git checkout -b feature/my-feature
+Commit your changes and push them to your fork:
+
+```shell
+
+git commit -am 'Add new feature'
+git push origin feature/my-feature
+Create a pull request on the main repository.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+sql
+
+
+Please replace `yourusername` with your actual GitHub username and update any other project-specific details as needed. This README provides an overview of the project, installation instructions, usage guidelines, contribution guidelines, and license information.
+
+
+
+``````
