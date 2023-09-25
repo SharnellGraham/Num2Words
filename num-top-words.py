@@ -32,3 +32,8 @@ btn = Button(master=root, text="calculate",fg="green", font=("Arial", 10, 'bold'
 
 display = Label(root, text="",fg="black", font=("Arial", 10, 'bold'))
 display.place(x=10, y=300)
+
+photo = PhotoImage(file = "Num2Words/number.png")
+root.iconphoto(False, photo)
+
+root.mainloop()
