@@ -47,13 +47,14 @@ Change to the project directory:
 Copy code
 cd Num2words
 Install the required dependencies (if not already installed):
-
+``` 
  ```shell
 Copy code
 pip install num2words
 Usage
 Run the application:
 
+```
 ```shell
 Copy code
 python num-to-words.py
@@ -69,18 +70,19 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 Fork the repository.
 
 Create a new branch for your feature or bug fix:
-
+``````
 ```shell
 Copy code
 git checkout -b feature/my-feature
 Commit your changes and push them to your fork:
-
+``````
 ```shell
 Copy code
 git commit -am 'Add new feature'
 git push origin feature/my-feature
 Create a pull request on the main repository.
-
+``````
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+``````
